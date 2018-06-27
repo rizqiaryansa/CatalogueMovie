@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/LyPaddingWithMP"
+    tools:context="com.rizqi.aryansa.cataloguemovie.Fragment.SearchFragment">
+
+    <LinearLayout
+        style="@style/MatchParentWrapContent"
+        android:weightSum="1"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/edt_search_title"
+            style="@style/MatchParentWrapContent"
+            android:hint="@string/input_title_movie"
+            android:layout_weight="0.3"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/search"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_result"
+        style="@style/LyResult">
+
+        <TextView
+            android:id="@+id/tv_result"
+            style="@style/TvResult"/>
+
+        <View
+            android:id="@+id/divider"
+            style="@style/ViewDivider"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_movie"
+            style="@style/AllMatchParent"
+            tools:listitem="@layout/movie_items"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/ProgressBar" />
+
+    </FrameLayout>
+
+</LinearLayout>

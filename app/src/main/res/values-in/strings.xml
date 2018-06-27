@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Katalog Film</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="overview">Ringkasan</string>
+    <string name="date">Tanggal</string>
+    <string name="image_url">http://image.tmdb.org/t/p/w92/</string>
+    <string name="backdrop_url">http://image.tmdb.org/t/p/original</string>
+
+    <string name="user_rating_movie">Rating: %1$s/10</string>
+
+    <string name="release_date">Tanggal rilis : </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tv_overview">Ringkasan</string>
+    <string name="buy_ticket">Beli Tiket </string>
+    <string name="success"> Sukses!</string>
+    <string name="avenger_content">Avenger</string>
+    <string name="share">Bagikan</string>
+    <string name="detail">Rincian</string>
+    <string name="search">Cari</string>
+    <string name="input_title_movie">Masukkan judul film</string>
+    <string name="movie_search_result">Hasil pencarian film</string>
+    <string name="title_activity_master">Catalogue Movie</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="home">Beranda</string>
+    <string name="preferences">Preferences</string>
+    <string name="rizqi_aryansa">Rizqi Aryansa</string>
+    <string name="rizqi_aryansa_studentpartner_com">rizqi.aryansa@studentpartner.com</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="upcoming">Yang Akan Datang</string>
+    <string name="now_playing">Sekarang</string>
+    <string name="movies_now_playing">Film Tayang Sekarang</string>
+    <string name="movies_upcoming">Film yang akan datang</string>
+    <string name="movies_favorite">Film Favorit</string>
+    <string name="favourite">Favorit</string>
+    <string name="setting">Pengaturan</string>
+</resources>

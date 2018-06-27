@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/LyPaddingWithMP"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_result"
+        style="@style/LyResult">
+
+        <TextView
+            android:id="@+id/tv_result"
+            style="@style/TvResult"/>
+
+        <View
+            android:id="@+id/divider"
+            style="@style/ViewDivider"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            tools:listitem="@layout/item_row_movie"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/ProgressBar" />
+
+    </FrameLayout>
+
+</LinearLayout>
